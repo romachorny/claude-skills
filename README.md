@@ -10,6 +10,7 @@ Works with Claude Code, Claude.ai / Cowork and the Claude API (any agent that re
 |---|---|---|
 | [animating-classical-paintings](skills/animating-classical-paintings/SKILL.md) | Creative tech | Living paintings: two modes, license check, anti-stuck protocol, eight acceptance rules, prompt template |
 | [frame-by-frame-video-qa](skills/frame-by-frame-video-qa/SKILL.md) | Video production | Accept or reject a generated clip by numbers: motion map, 6x6 energy grid, loop seam, brightness drift. Includes `qa.py` |
+| [hebrew-rtl-copy-blocks](skills/hebrew-rtl-copy-blocks/SKILL.md) | Localization (Israel) | Hebrew that reads right in chat code blocks and copy boxes: direction marks on every line plus layout rules. Includes `rtl_wrap.py` |
 | [human-outreach-voice](skills/human-outreach-voice/SKILL.md) | Sales | Messages that sound like a busy human, in English, Hebrew and Russian, plus a fix for broken Hebrew RTL in copy blocks |
 | [agent-browser-etiquette](skills/agent-browser-etiquette/SKILL.md) | Agents | Browsing under a real person's accounts without getting them banned |
 | [agent-task-handoff](skills/agent-task-handoff/SKILL.md) | Agents | Handing tasks between Claude Code sessions on a server, a repo and a laptop, verified against the drive |
